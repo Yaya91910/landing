@@ -1,0 +1,164 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+/* Banner Section */
+
+          /* Buy Button */
+.Buy-B {
+	box-shadow: 3px 4px 0px 0px #F9EBC8;
+	background:linear-gradient(to bottom, #A0BCC2 5%, #FEFBE7 100%);
+	background-color:#F9EBC8;
+	border-radius:15px;
+	border:1px solid #F9EBC8;
+	display:inline-block;
+	cursor:pointer;
+	color:#3783bd;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+  text-align: center;
+  margin: 0 auto;
+  position: absolute;
+  left: 700px;
+  top: 300px;
+}
+.Buy-B:hover {
+	background:linear-gradient(to bottom, #A0BCC2 5%, #DAE5D0 100%);
+	background-color:#106dd1;
+}
+
+body {
+  background-color: #F7E9D7;
+}
+
+       /* Banner Design */
+
+.Banner-s {
+  background-image: url("https://www.notebookcheck.biz/fileadmin/Notebooks/News/_nc3/photo_1616876195047_522271be4e66.jpg");
+  width: 1300px;
+  height: 400px;
+  margin: 0 auto;
+  border-radius: 4px;
+  box-shadow: 10px 5px 5px grey;
+}
+
+.Banner-s h1 {
+  font-family: 'Mouse Memoirs', sans-serif;
+  color: #e1e2ed;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.Banner-s p {
+  font-family: 'Uchen', serif;
+  color: beige;
+  text-align: center;
+  font-size: medium;
+  font-weight: bold;
+}
+
+/*Product section */
+/*card-product*/
+.card-product {
+  width: 500px;
+  height: 120px;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.card-product img {
+  height: 100%;
+  width: 120px;
+  object-fit: cover;
+}
+
+.card-product h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-product p {
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.card-product .card-product-infos {
+  padding: 16px;
+}
+
+h1 {
+  font-family: 'Mouse Memoirs', sans-serif;
+  color: #E6BA95;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.container {
+  display: flex;
+}
+
+/* contact Us section */
+
+.twitter {
+  margin-left: 630px;
+  margin-right: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.twitter:hover {
+  opacity: 0.6;
+  color: #495C83;
+}
+
+.facebook {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.facebook:hover {
+  opacity: 0.6;
+  color: #495C83;
+}
+
+.linkedin {
+  margin-left: 40px;
+  text-decoration: none;
+  color: white;
+}
+
+.linkedin:hover {
+  opacity: 0.6;
+  color: #495C83;
+}
